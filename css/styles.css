@@ -668,9 +668,6 @@ body {
   color: var(--navy);
   margin-bottom: 16px;
 }
-.modal-form {
-  margin-bottom: 24px;
-}
 .modal-field {
   margin-bottom: 8px;
 }
@@ -777,6 +774,5 @@ body {
   color: var(--white);
   cursor: pointer;
   margin: 0 auto;
-  margin-bottom: 24px;
   transition: background-color var(--transition);
 }
