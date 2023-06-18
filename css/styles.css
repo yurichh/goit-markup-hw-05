@@ -552,7 +552,7 @@ body {
 .footer-form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
 .footer-input {
   width: 264px;
@@ -562,17 +562,15 @@ body {
   border-radius: 4px;
   background-color: transparent;
   color: var(--white);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .footer-input::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
   color: var(--white);
 }
-.footer-label {
+.footer-form-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -585,6 +583,8 @@ body {
   background-color: #4d5ae5;
   border-radius: 4px;
   border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   display: flex;
