@@ -752,7 +752,7 @@ body {
     fill var(--transition);
 }
 .modal-checkbox:checked + .modal-form-label .new-checkbox {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   fill: var(--cloud);
   border: none;
 }
